@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Money Master</title>
+    <!-- tailwind css -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/f3a04868c8.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body class="container mx-auto">
+    <header class="flex justify-center items-center mt-7 container mx-auto">
+        <h1 class="text-5xl"> <span class="text-emerald-400">Money</span> <span class="text-orange-400">Master</span>
+        </h1>
+        <i class="fa-solid fa-sack-dollar text-4xl px-4 mt-2 text-indigo-600"></i>
+    </header>
+    <main>
+        <section class="grid grid-cols-1 lg:grid-cols-2 gap-10 mt-7 container mx-auto">
+            <div>
+                <img class="w-full h-full" src="money.png" alt="">
+            </div>
+            <div>
+                <div class="bg-slate-100 flex justify-center items-center flex-col text-center">
+                    <div>
+                        <h1 class="text-2xl font-semibold mt-3 mb-5">Income</h1>
+                        <div class="flex md:flex-row flex-col md:gap-4">
+                            <h2 class="text-lg">Income:</h2>
+                            <input class="bg-slate-300 p-2 rounded-md" type="text" placeholder="enter your income">
+                        </div>
+                    </div>
+                    <div>
+                        <h1 class="text-2xl font-semibold mt-5 mb-5">Expenses</h1>
+                        <div class="flex md:flex-row flex-col md:gap-8">
+                            <h2 class="text-lg">Food:</h2>
+                            <input class="bg-slate-300 p-2 mb-4 rounded-md" type="text"
+                                placeholder="enter food expenses">
+                        </div>
+                        <div class="flex md:flex-row flex-col md:gap-9">
+                            <h2 class="text-lg">Rent:</h2>
+                            <input class="bg-slate-300 p-2 mb-4 rounded-md" type="text"
+                                placeholder="enter rental amount">
+                        </div>
+                        <div class="flex md:flex-row flex-col md:gap-3">
+                            <h2 class="text-lg">Clothes:</h2>
+                            <input class="bg-slate-300 p-2 mb-4 rounded-md" type="text"
+                                placeholder="enter expense for clothes">
+                        </div>
+                    </div>
+                    <div>
+                        <button class="bg-blue-500 text-white text-lg px-6 py-2 mb-4 rounded-lg">Calculate</button>
+                    </div>
+                    <div>
+                        <div class="flex flex-col md:flex-row md:mt-4">
+                            <h1 class="text-2xl font-semibold">Total Expenses:</h1>
+                            <input class="bg-slate-100 p-2 font-semibold" type="text"
+                                placeholder="Your total expense is">
+                        </div>
+                    </div>
+                    <div>
+                        <div class="flex flex-col md:flex-row md:mt-4">
+                            <h1 class="text-2xl font-semibold">Balance:</h1>
+                            <input class="bg-slate-100 p-2 font-semibold" type="text"
+                                placeholder="Your current balance is">
+                        </div>
+                    </div>
+                    <div>
+                        <div class="flex flex-col md:flex-row md:gap-4 md:mt-4">
+                            <h1 class="text-lg mt-3 mb-3">Save:</h1>
+                            <input class="bg-slate-300 p-2 rounded-md" type="text" placeholder="Put saving percentage">
+                            <span class="md:mt-4">%</span>
+                            <button class="bg-blue-500 text-white text-lg px-8 py-2 rounded-lg">Save</button>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="flex flex-col md:flex-row md:mt-4">
+                            <h1 class="text-2xl font-semibold">Saving Amount:</h1>
+                            <input class="bg-slate-100 p-2 font-semibold" type="text"
+                                placeholder="Your total expense is">
+                        </div>
+                    </div>
+                    <div>
+                        <div class="flex flex-col mb-2 md:flex-row md:mt-4 md:mb-8">
+                            <h1 class="text-2xl font-semibold">Remaining Balance:</h1>
+                            <input class="bg-slate-100 p-2 font-semibold" type="text"
+                                placeholder="Your current balance is">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="moneyMaster.js"></script>
+</body>
+
+</html>
