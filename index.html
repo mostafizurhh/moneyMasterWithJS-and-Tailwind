@@ -30,64 +30,68 @@
                         <h1 class="text-2xl font-semibold mt-3 mb-5">Income</h1>
                         <div class="flex md:flex-row flex-col md:gap-4">
                             <h2 class="text-lg">Income:</h2>
-                            <input class="bg-slate-300 p-2 rounded-md" type="text" placeholder="enter your income">
+                            <input id="income" class="bg-slate-300 p-2 rounded-md" type="text"
+                                placeholder="enter your income">
                         </div>
                     </div>
                     <div>
                         <h1 class="text-2xl font-semibold mt-5 mb-5">Expenses</h1>
                         <div class="flex md:flex-row flex-col md:gap-8">
                             <h2 class="text-lg">Food:</h2>
-                            <input class="bg-slate-300 p-2 mb-4 rounded-md" type="text"
+                            <input id="food" class="bg-slate-300 p-2 mb-4 rounded-md" type="text"
                                 placeholder="enter food expenses">
                         </div>
                         <div class="flex md:flex-row flex-col md:gap-9">
                             <h2 class="text-lg">Rent:</h2>
-                            <input class="bg-slate-300 p-2 mb-4 rounded-md" type="text"
+                            <input id="rent" class="bg-slate-300 p-2 mb-4 rounded-md" type="text"
                                 placeholder="enter rental amount">
                         </div>
                         <div class="flex md:flex-row flex-col md:gap-3">
                             <h2 class="text-lg">Clothes:</h2>
-                            <input class="bg-slate-300 p-2 mb-4 rounded-md" type="text"
+                            <input id="clothes" class="bg-slate-300 p-2 mb-4 rounded-md" type="text"
                                 placeholder="enter expense for clothes">
                         </div>
                     </div>
                     <div>
-                        <button class="bg-blue-500 text-white text-lg px-6 py-2 mb-4 rounded-lg">Calculate</button>
+                        <button id="calculateBtn"
+                            class="bg-blue-500 text-white text-lg px-6 py-2 mb-4 rounded-lg">Calculate</button>
                     </div>
                     <div>
                         <div class="flex flex-col md:flex-row md:mt-4">
                             <h1 class="text-2xl font-semibold">Total Expenses:</h1>
-                            <input class="bg-slate-100 p-2 font-semibold" type="text"
+                            <input id="totalExpense" class="bg-slate-100 p-2 font-semibold" type="text"
                                 placeholder="Your total expense is">
                         </div>
                     </div>
                     <div>
                         <div class="flex flex-col md:flex-row md:mt-4">
                             <h1 class="text-2xl font-semibold">Balance:</h1>
-                            <input class="bg-slate-100 p-2 font-semibold" type="text"
+                            <input id="balance" class="bg-slate-100 p-2 font-semibold" type="text"
                                 placeholder="Your current balance is">
                         </div>
                     </div>
                     <div>
                         <div class="flex flex-col md:flex-row md:gap-4 md:mt-4">
                             <h1 class="text-lg mt-3 mb-3">Save:</h1>
-                            <input class="bg-slate-300 p-2 rounded-md" type="text" placeholder="Put saving percentage">
+                            <input id="save" class="bg-slate-300 p-2 rounded-md" type="text"
+                                placeholder="Put saving percentage">
                             <span class="md:mt-4">%</span>
-                            <button class="bg-blue-500 text-white text-lg px-8 py-2 rounded-lg">Save</button>
+                            <button id="saveBtn"
+                                class="bg-blue-500 text-white text-lg px-8 py-2 rounded-lg">Save</button>
                         </div>
                     </div>
                     <div>
                         <div class="flex flex-col md:flex-row md:mt-4">
                             <h1 class="text-2xl font-semibold">Saving Amount:</h1>
-                            <input class="bg-slate-100 p-2 font-semibold" type="text"
-                                placeholder="Your total expense is">
+                            <input id="saving" class="bg-slate-100 p-2 font-semibold" type="text"
+                                placeholder="Your expected saving">
                         </div>
                     </div>
                     <div>
                         <div class="flex flex-col mb-2 md:flex-row md:mt-4 md:mb-8">
                             <h1 class="text-2xl font-semibold">Remaining Balance:</h1>
-                            <input class="bg-slate-100 p-2 font-semibold" type="text"
-                                placeholder="Your current balance is">
+                            <input id="remaining" class="bg-slate-100 p-2 font-semibold" type="text"
+                                placeholder="Your remaining balance">
                         </div>
                     </div>
                 </div>
